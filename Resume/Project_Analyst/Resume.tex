@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Jordan Ling Shen Hang} \\ \vspace{1pt}
+    \small +60 14 228 6351 $|$ \href{jordanlingishere@gmail.com}{\underline{jordanlingishere@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/jordanling1453}{\underline{linkedin.com/in/jordanling1453}} $|$
+    \href{https://github.com/sadjordan}{\underline{github.com/sadjordan}}
+\end{center}
+
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\begin{flushleft}
+\small{I am a computer science student with an interest in project analysis and data science. I have participated in many hackathons, including Cursor Hackathon, Great AI Hackathon and FutureHack where my team won 1st place. I am also active in clubs, including MMU’s IT Society through which I helped organise workshops, hackathons, etc. through which I developed my project planning, execution and management skills. I am a team player and eager to learn new things, especially in the industry as I near graduation.}
+\end{flushleft}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Multimedia University}{Cyberjaya, Selangor}
+      {Bachelor of Computer Science (Current CGPA: 3.90/4.00)}{March 2024 - March 2027}
+    \resumeSubSubheading
+      {Foundation in Computing (CGPA: 3.75/4.00)}{March 2023 - March 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Head of Skills Development}{December 2025 - Present}
+        {IT Society}{Cyberjaya, Selangor}
+        \resumeItemListStart
+            \resumeItem{Director for MMU Hack Day, an internal hackathon targeting new MMU students}
+            \resumeItem{Crafted plans for workshops and recruited speakers for said workshops}
+            \resumeItem{Delegated workshops to subgroups within the division and guided the organising process}
+        \resumeItemListEnd
+    \resumeSubheading
+        {Head of Competition Division}{March 2025 - November 2025}
+        {CodeNection 2025, IT Society}{Cyberjaya, Selangor}
+        \resumeItemListStart
+            \resumeItem{Led a team of 5 to help organise CodeNection, a hackathon by IT Society}
+            \resumeItem{Guided the development of problem statements and judging rubrics}
+            \resumeItem{Recruited external judges and oversaw judging throughout the hackathon}
+        \resumeItemListEnd
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Information Technology Support Specialist}{Sep. 2018 -- Present}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Communicate with managers to set up campus computers used on campus}
+    %     \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+    %     \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+    % \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Detecting Fake News with Deep Learning} $|$ \emph{pandas, PyTorch, Matplotlib, sklearn}} {November 2025 - Present}
+          \resumeItemListStart
+            \resumeItem{Explored building machine learning and deep learning models as well as fine-tuning BERT for said task}
+            \resumeItem{Read 16 papers tackling similar issues to get a comprehensive understanding of the problem area}
+            \resumeItem{https://github.com/sadjordan/Detecting-Fake-News-with-Deep-Learning}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{SideDuit} $|$ \emph{Supabase, Django, Gemini API}} {December 2025}
+          \resumeItemListStart
+            \resumeItem{SideDuit is designed to help gig workers in Malaysia manage their money, and plan for their retirement}
+            \resumeItem{This was a group hackathon project. I worked on developing the feature to parse financial documents and store the transactions, doing so using Gemini API to return each transaction in a .json format and storing it in Supabase (Django backend)}
+            \resumeItem{Deployed: https://side-duit.vercel.app/, note that due to the backend no longer being hosted, parts of the site do not work. GitHub link: https://github.com/wongkaishen/SideDuit}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Detecting Deepfake Audio} $|$ \emph{pandas, sklearn, Flask, Matplotlib}} {July 2025}
+          \resumeItemListStart
+            \resumeItem{Developed an XGBoost model for detecting deepfake audio trained on a gathered dataset of over 1 million rows (80-20 split)}
+            \resumeItem{Processes audio with a window size of 0.2s, followed by feature engineering and then classification}
+            \resumeItem{Project which won 1st place in FutureHack 2025; https://github.com/sadjordan/Detecting\_Deepfake\_Audio}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, SQL, R} \\
+     \textbf{Frameworks}{: Django, Streamlit} \\
+     \textbf{Developer Tools}{: Git, GitHub} \\
+     \textbf{Libraries}{: pandas, NumPy, sklearn, Matplotlib, PyTorch}
+    }}
+ \end{itemize}
+
+
+%-----------LANGUAGES-----------
+\section{Languages}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{English}{: Native/Fluent} \\
+     \textbf{Mandarin}{: Basic Conversational} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
